@@ -32,28 +32,6 @@ h1
 }
 
 
-table.form td 
-{
-    text-align: left;
-}
-
-/* Group each label-input pair together */
-table.form label,
-table.form input,
-table.form select 
-{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 15px;  /* Space between each label-input group */
-}
-
-/* The right column (second td) with inputs */
-
-table.form td:nth-child(2)
-{
-    text-align: center;  /* Center align all the label-input groups */
-}
-
 p 
 {
   font-family: verdana;
